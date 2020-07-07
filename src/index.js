@@ -8,22 +8,22 @@ const fibonacci = () => {
     return fibonacciNumbers;
 }
 
+const isFibonnaci = (num) => fibonacci().includes(num);
+
 const fibonacciRecursion = (n) => {
     return (n < 2) ? n : fibonacciRecursion(n - 2) + fibonacciRecursion(n - 1)
 }
 
-const fiboNumbersArray = (x) => {
-    const fiboNumbers = [];
-    for (let i = 0; i <= x; i++) {
-        fiboNumbers.push(fibonacciRecursion(i));
-    }
-    return fiboNumbers;
-}
-
-console.log(fiboNumbersArray(33));
-// console.log(fibonacciRecursion());
-
-const isFibonnaci = (num) => fibonacci().includes(num);
+// outra maneira de achar os primeiros 350 números da série
+//
+// const fiboNumbersArray = (x) => {
+//     const fiboNumbers = [];
+//     for (let i = 0; i <= x; i++) {
+//         fiboNumbers.push(fibonacciRecursion(i));
+//     }
+//     return fiboNumbers;
+// }
+// console.log(fiboNumbersArray(34));
 
 module.exports = {
     fibonacci,
