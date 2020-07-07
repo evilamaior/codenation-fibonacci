@@ -10,11 +10,11 @@ const fibonacci = () => {
 
 const isFibonnaci = (num) => fibonacci().includes(num);
 
-const fibonacciRecursion = (n) => {
-    return (n < 2) ? n : fibonacciRecursion(n - 2) + fibonacciRecursion(n - 1)
-}
-
 // outra maneira de achar os primeiros 350 números da série
+//
+// const fibonacciRecursion = (n) => {
+//     return (n < 2) ? n : fibonacciRecursion(n - 2) + fibonacciRecursion(n - 1)
+// }
 //
 // const fiboNumbersArray = (x) => {
 //     const fiboNumbers = [];
