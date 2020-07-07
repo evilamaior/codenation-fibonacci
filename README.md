@@ -1,6 +1,6 @@
 # Fibonacci usando NodeJS
 
-O objetivo é criar um método `fibonacci` que retorne um `Array` com os primeiro 350 números de série de *Fibonacci*.
+O objetivo é criar um método `fibonacci` que retorne um `Array` com os primeiros números de série de *Fibonacci* até passar de 350.
 
 > Série de Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13, etc...
 
